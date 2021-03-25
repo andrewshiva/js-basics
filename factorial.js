@@ -9,9 +9,10 @@ function factorial(x)
   return num;
          
 }
-console.log(factorial(6));
+
 //call back function
-function logFactorial(num){
-  console.log(num);
-}
-factorial(num, logFactorial);
+function logFactorial(num , mycallback){
+  var b = mycallback(num);
+   console.log(b);
+ }
+ logFactorial(4, factorial);

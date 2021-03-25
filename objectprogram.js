@@ -15,5 +15,5 @@ console.log(person.lastname);
 person.age = '25';
 console.log(person.age);
 
-person.eyecolor = "blur";
+person.eyecolor = "blue";
 console.log(person.eyecolor );
